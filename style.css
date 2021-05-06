@@ -1,0 +1,140 @@
+    /* global css */
+    body{
+        margin: 0px;
+        font-family: 'Poppins', sans-serif;
+
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .half-width{
+        width: 40%;
+        float: left;
+        padding-left: 5%;
+        margin-left: 3%;
+    }
+    section{
+        height:500px;
+        padding-bottom: 250px;
+        padding-top: 150px;
+    }
+
+    header h6 {
+        float: right;
+        padding: 20px 20px;
+        display: inline-block;
+        font-size: 16px;
+
+    }
+    /* 1st sections css */
+
+    .half-width img{
+        width: 100%;
+    }
+    .first-section{
+        background-image: url("images/header-bg.png");
+        background-repeat: no-repeat;
+    }
+    .btn{
+        text-decoration: none;
+        color: white;
+        padding: 15px 30px;
+        background-image: linear-gradient(180deg,salmon,tomato);
+        border-radius: 10px;
+    }
+    .half-width p{
+        margin-bottom: 10%;
+    }
+    .name-highlighter{
+        color: salmon;
+    }
+    /* About sections css */
+    .biography-section{
+        background-image: url("images/biography-bg.png");
+        background-repeat: no-repeat;
+    }
+    /* Work sections css */
+    .latest-works{
+        background-image: url("images/latest-work-bg.png");
+        background-repeat: no-repeat;
+    }
+    .work-img-box{
+        width: 30%;
+        float: left;
+        margin: .5% 1%;
+        height: 40%;
+    
+    }
+     .work-img-box img{
+         width: 100%;
+     }
+     .work-img-box h6{
+         font-size: 20px;
+     }
+      .latest-works h1{
+          text-align: center;
+          text-transform: uppercase;
+          color: rgba(19, 5, 149, 0.835);
+          margin-bottom: 150px;
+
+       }
+        /* Praising section css */
+       .praising-sec{
+           text-align: center;
+           background-image: url("images/footer-bg.png");
+           background-repeat: no-repeat;
+       }
+       .praising-sec h4{
+           color: darkgray;
+       }
+       .praising-sec p{
+           font-weight: 600;
+       }
+       .msg-sec{
+           background-image: url("images/Group_33094_1.png");
+           background-repeat: no-repeat;
+           background-size: cover;
+           width: 70%;
+           margin: 0 auto;
+           color: white;
+           height: 240px;
+           padding: 0px;
+       }
+       .doing-middle{
+            display: inline-flex;
+            align-items: center;
+       }
+       
+       #msg-id h2 {
+           font-size: 46px;
+        }
+
+        .last-sec{
+            height: 60px;
+            padding: 50px 0px;
+            text-align: center;
+        }
+        .last-sec h4{
+            font-size: 16px;
+            color: darkgray;
+        }
+        .last-sec h2{
+            font-size: 24px;
+            color: rgba(19, 5, 149, 0.835);
+        }
+        .last-sec img{
+            width: 80px;
+            height: 80px;
+        }
+        /* footer section css*/
+        footer h6{
+            text-align: center;
+            font-size: 16px;
+            color: darkgray;
+            font-weight: 100;
+            margin-top: 180px;
+
+        }
